@@ -5,7 +5,11 @@ public class MinFunction {
     public static int min(int a, int b) {
         int result = 0;
 
-        result = Integer.min(a, b);
+        if (a < b) {
+            result = a;
+        } else {
+            result = b;
+        }
 
         return result;
     }

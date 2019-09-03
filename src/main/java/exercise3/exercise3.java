@@ -4,7 +4,13 @@ public class exercise3 {
 
     public static int min (int a, int b) {
 
-        int result = Integer.min(a, b);
+        int result = 0;
+
+        if (a < b) {
+            result = a;
+        } else {
+            result = b;
+        }
 
         return result;
     }
@@ -12,7 +18,15 @@ public class exercise3 {
 
     public static int min (int a, int b, int c, int d) {
 
-        int result = Integer.min(min(a, b), min(c,d));
+        int result = a;
+
+        if (a > b) {
+            result = b;
+        } if (result > c) {
+            result = c;
+        } if (result > d) {
+            result = d;
+        }
 
         return result;
     }

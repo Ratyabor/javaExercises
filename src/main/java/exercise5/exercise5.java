@@ -4,13 +4,13 @@ public class exercise5 {
 
     public static void main(String[] args) {
 
-        exercise5.Red red = new exercise5.Red();
-        exercise5.Orange orange = new exercise5.Orange();
-        exercise5.Yellow yellow = new exercise5.Yellow();
-        exercise5.Green green = new exercise5.Green();
-        exercise5.Blue blue = new exercise5.Blue();
-        exercise5.Indigo indigo = new exercise5.Indigo();
-        exercise5.Violet violet = new exercise5.Violet();
+        Red red = new Red();
+        Orange orange = new Orange();
+        Yellow yellow = new Yellow();
+        Green green = new Green();
+        Blue blue = new Blue();
+        Indigo indigo = new Indigo();
+        Violet violet = new Violet();
 
     }
 
